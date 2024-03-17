@@ -6,4 +6,9 @@ public class Utility
     {
         return (double)number.Sum() / number.Length;
     }
+    
+    public static int FindMax(int[] number)
+    {
+        return number.Max();
+    }
 }
