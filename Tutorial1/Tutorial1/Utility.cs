@@ -2,9 +2,9 @@ namespace Tutorial1;
 
 public class Utility
 {
-    public static double CalculateAverage(int[] number)
+    public static double CalculateAverage(int[] num)
     {
-        return (double)number.Sum() / number.Length;
+        return (double)num.Sum() / num.Length;
     }
     
     public static int FindMax(int[] number)
